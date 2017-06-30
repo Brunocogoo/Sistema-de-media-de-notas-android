@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TRABALHOT1</string>
+
+    <string name="textoo">TRABALHOT1</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

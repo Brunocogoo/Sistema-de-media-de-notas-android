@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.brunocogo.trabalhot1.FragD"
+    android:background="@android:color/holo_blue_light">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <TextView
+            android:text="Média Final:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:textSize="36sp"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:text="10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/idnota"
+            android:textSize="50sp"
+            android:textColor="@android:color/white"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:text="APROVADO"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/idstatus"
+            android:textSize="50sp" />
+    </LinearLayout>
+</RelativeLayout>
